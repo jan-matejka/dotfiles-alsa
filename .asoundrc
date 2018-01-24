@@ -1,0 +1,6 @@
+# This should be the default.
+# I'm keeping this for reference when I want to play sound through HDMI
+# which involves running `aplay -L` and setting the HDMI card number
+# (usually 3).
+defaults.pcm.!card 0
+defaults.pcm.!device 0
